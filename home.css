@@ -17,6 +17,13 @@ body{
     background-image: url(images/coffee-shop.jpg); 
     background-size: cover;
 }
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container img {
+    margin-right: 10px;
+}
 header img{
     display: inline-block;
     width: 5%;
@@ -42,10 +49,15 @@ header img {
     height: auto;
    
 }
-header nav ul{
+#company-name{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header nav ul {
     margin: 0;
     padding: 0;
-    
+    display: flex; /* Change to flex */
+    flex-direction: row; /* Set flex-direction to row */
 }
 header nav li a{
     color: white;

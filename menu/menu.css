@@ -29,6 +29,19 @@
     display: inline-block;
     
 }
+.description{
+    font-size: 1.5rem; /* Adjust font size as needed */
+    position: absolute;
+    bottom: 6vh; /* Adjust the distance from the top */
+    left: 50%; /* Align to the center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    /* background-color: white; Match container background */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 5px; /* Add border radius for styling */
+    z-index: 1; /* Ensure price tag is above image */
+    /* border: 1px solid black; */
+
+}
 .item{
     margin-left: 1.5vh;
     margin-right: 1.5vh;
@@ -43,6 +56,8 @@
     padding: 1vh;
     font-size: 2rem;
     position: relative;
+    vertical-align: top; /* Align items to the top */
+    text-align: center; /* Center text horizontally */
     
 }
 .item p{
@@ -51,13 +66,12 @@
     text-align: center;
 }
 .item img{
-    width: 15vh;
-    height: auto;
+    max-width: 60%; /* Ensure image fits container */
+    max-height: 15vh; /* Limit image height */
     margin-bottom: 10px; /* Add margin to separate image from text */
-    
-    
+    /* border: 1px solid black; */
+    border-radius: 2vh;
 }
-
 .regular{
     overflow-x: scroll;
     display: inline-block;
