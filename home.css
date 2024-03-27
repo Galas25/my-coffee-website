@@ -11,6 +11,7 @@
     font-family: Quicksand;
     src: url(fonts/static/Quicksand-Light.ttf);
 }
+
 body{
     height: 100vh;
     background-image: url(images/coffee-shop.jpg); 
